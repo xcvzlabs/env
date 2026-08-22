@@ -1,6 +1,12 @@
 name: Setup project
 description: Set up Node and Bun (cached) and install dependencies. Assumes the repo has already been checked out.
 
+inputs:
+  registry-url:
+    description: npm registry URL to configure Node for (needed for `npm publish`).
+    required: false
+    default: ''
+
 runs:
   using: composite
   steps:
@@ -8,6 +14,7 @@ runs:
       uses: actions/setup-node@v7
       with:
         node-version: '26'
+        registry-url: ${{ inputs.registry-url }}
 
     - name: Setup Bun
       uses: oven-sh/setup-bun@v2
