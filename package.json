@@ -1,6 +1,6 @@
 {
   "name": "@xcvzlabs/env",
-  "description": "Environment configuration loader and validator",
+  "description": "Runtime-agnostic environment variable loader and validator built on Standard Schema — works with Zod, Valibot, ArkType, or any compliant validator.",
   "version": "0.0.1",
   "type": "module",
   "license": "MIT",
@@ -21,7 +21,9 @@
     "configuration",
     "validation",
     "validator",
-    "typescript"
+    "typescript",
+    "standard-schema",
+    "runtime-agnostic"
   ],
   "files": [
     "dist"
@@ -45,15 +47,21 @@
     "build": "tsdown",
     "release": "bun run scripts/release.ts"
   },
+  "dependencies": {
+    "@standard-schema/spec": "^1.0.0"
+  },
   "devDependencies": {
     "@types/bun": "1.4.0",
+    "arktype": "^2.2.3",
     "changelogen": "^0.6.2",
     "lefthook": "^2.1.10",
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
     "oxlint-tsgolint": "^7.0.2001",
     "tsdown": "^0.22.14",
-    "valibot": "^1.4.2"
+    "valibot": "^1.4.2",
+    "vitest": "^4.1.11",
+    "zod": "^4.1.13"
   },
   "peerDependencies": {
     "typescript": "^7"
@@ -64,8 +72,5 @@
       "version": "1.4.0",
       "onFail": "warn"
     }
-  },
-  "dependencies": {
-    "vitest": "^4.1.11"
   }
 }
