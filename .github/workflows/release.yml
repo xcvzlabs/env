@@ -15,7 +15,7 @@ permissions:
 jobs:
   verify:
     name: Verify
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 10
     steps:
       - name: Checkout
@@ -48,7 +48,7 @@ jobs:
   release:
     name: Create GitHub Release
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 10
     steps:
       - name: Checkout
