@@ -1,0 +1,19 @@
+name: Setup project
+description: Set up Node and Bun (cached) and install dependencies. Assumes the repo has already been checked out.
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Node
+      uses: actions/setup-node@v7
+      with:
+        node-version: '26'
+
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: '1.4.0'
+
+    - name: Install dependencies
+      shell: bash
+      run: bun install --frozen-lockfile
