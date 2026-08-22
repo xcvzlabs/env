@@ -3,8 +3,17 @@
   "description": "Environment configuration loader and validator",
   "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "check": "bun run fmt && bun run fmt:check && bun run lint"
+  },
   "devDependencies": {
-    "@types/bun": "1.4.0"
+    "@types/bun": "1.4.0",
+    "oxfmt": "^0.64.0",
+    "oxlint": "^1.79.0",
+    "oxlint-tsgolint": "^7.0.2001"
   },
   "peerDependencies": {
     "typescript": "^7"
