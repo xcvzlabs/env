@@ -1,6 +1,40 @@
 # Changelog
 
 
+## v0.1.0
+
+[compare changes](https://github.com/xcvzlabs/env/compare/v0.0.1...v0.1.0)
+
+### 🚀 Enhancements
+
+- Add main functionalities ([fb285b3](https://github.com/xcvzlabs/env/commit/fb285b3))
+- Add a lite schema generator ([7d4417a](https://github.com/xcvzlabs/env/commit/7d4417a))
+- Add env validation error ([932fada](https://github.com/xcvzlabs/env/commit/932fada))
+
+### 🩹 Fixes
+
+- Don't let devEngines block npm publish in CI ([22b1375](https://github.com/xcvzlabs/env/commit/22b1375))
+
+### 📖 Documentation
+
+- Add detailed usage instructions and schema examples ([bc4fc83](https://github.com/xcvzlabs/env/commit/bc4fc83))
+
+### 🏡 Chore
+
+- Export all exportables ([675915a](https://github.com/xcvzlabs/env/commit/675915a))
+- Install dependencies ([6e249c0](https://github.com/xcvzlabs/env/commit/6e249c0))
+
+### ✅ Tests
+
+- Add unit tests for defineEnv function ([bdc76df](https://github.com/xcvzlabs/env/commit/bdc76df))
+- Add unit tests for defineEnvAsync function ([495ed44](https://github.com/xcvzlabs/env/commit/495ed44))
+- Add unit tests for errors ([8cddbe3](https://github.com/xcvzlabs/env/commit/8cddbe3))
+- Add unit tests for schemas ([5eb4c3a](https://github.com/xcvzlabs/env/commit/5eb4c3a))
+
+### ❤️ Contributors
+
+- Mon Albert Gamil ([@xcvzmoon-labs](https://github.com/xcvzmoon-labs))
+
 ## v0.0.1
 
 
