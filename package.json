@@ -4,15 +4,25 @@
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/xcvzlabs/env#readme",
-  "bugs": {
-    "url": "https://github.com/xcvzlabs/env/issues"
-  },
   "author": "Mon Albert Gamil <mrgamilmonalbert@gmail.com>",
+  "homepage": "https://github.com/xcvzlabs/env#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xcvzlabs/env.git"
   },
+  "bugs": {
+    "url": "https://github.com/xcvzlabs/env/issues"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "environment-variables",
+    "config",
+    "configuration",
+    "validation",
+    "validator",
+    "typescript"
+  ],
   "files": [
     "dist"
   ],
