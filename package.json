@@ -7,10 +7,15 @@
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
-    "check": "bun run fmt && bun run fmt:check && bun run lint"
+    "check": "bun run fmt && bun run fmt:check && bun run lint",
+    "typecheck": "tsc --noEmit --checkers 8",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:verbose": "vitest run --reporter=verbose"
   },
   "devDependencies": {
     "@types/bun": "1.4.0",
+    "lefthook": "^2.1.10",
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
     "oxlint-tsgolint": "^7.0.2001"
@@ -24,5 +29,8 @@
       "version": "1.4.0",
       "onFail": "download"
     }
+  },
+  "dependencies": {
+    "vitest": "^4.1.11"
   }
 }
