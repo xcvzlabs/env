@@ -1,7 +1,7 @@
 {
   "name": "@xcvzlabs/env",
   "description": "Runtime-agnostic environment variable loader and validator built on Standard Schema — works with Zod, Valibot, ArkType, or any compliant validator.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "license": "MIT",
   "author": "Mon Albert Gamil <mrgamilmonalbert@gmail.com>",

@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.1
+
+[compare changes](https://github.com/xcvzlabs/env/compare/v0.1.0...v0.1.1)
+
+### 🩹 Fixes
+
+- **release:** Run publish on a GitHub-hosted runner ([fb049c1](https://github.com/xcvzlabs/env/commit/fb049c1))
+
+### ❤️ Contributors
+
+- Mon Albert Gamil ([@xcvzmoon-labs](https://github.com/xcvzmoon-labs))
+
 ## v0.1.0
 
 [compare changes](https://github.com/xcvzlabs/env/compare/v0.0.1...v0.1.0)
