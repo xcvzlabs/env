@@ -3,6 +3,26 @@
   "description": "Environment configuration loader and validator",
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/xcvzlabs/env#readme",
+  "bugs": {
+    "url": "https://github.com/xcvzlabs/env/issues"
+  },
+  "author": "Mon Albert Gamil <mrgamilmonalbert@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcvzlabs/env.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
@@ -12,6 +32,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:verbose": "vitest run --reporter=verbose",
+    "build": "tsdown",
     "release": "bun run scripts/release.ts"
   },
   "devDependencies": {
@@ -21,6 +42,7 @@
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
     "oxlint-tsgolint": "^7.0.2001",
+    "tsdown": "^0.22.14",
     "valibot": "^1.4.2"
   },
   "peerDependencies": {
