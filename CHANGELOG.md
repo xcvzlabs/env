@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://github.com/xcvzlabs/env/compare/v0.1.1...v0.1.2)
+
+### 🩹 Fixes
+
+- Resolve type generation and declaration ([4454b79](https://github.com/xcvzlabs/env/commit/4454b79))
+
+### ❤️ Contributors
+
+- Mon Albert Gamil ([@xcvzmoon-labs](https://github.com/xcvzmoon-labs))
+
 ## v0.1.1
 
 [compare changes](https://github.com/xcvzlabs/env/compare/v0.1.0...v0.1.1)
