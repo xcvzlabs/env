@@ -29,7 +29,10 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.mjs",
+    ".": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    },
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -47,10 +50,8 @@
     "build": "tsdown",
     "release": "bun run scripts/release.ts"
   },
-  "dependencies": {
-    "@standard-schema/spec": "^1.0.0"
-  },
   "devDependencies": {
+    "@standard-schema/spec": "^1.0.0",
     "@types/bun": "1.4.0",
     "arktype": "^2.2.3",
     "changelogen": "^0.6.2",

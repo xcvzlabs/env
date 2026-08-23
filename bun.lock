@@ -4,10 +4,8 @@
   "workspaces": {
     "": {
       "name": "@xcvzlabs/env",
-      "dependencies": {
-        "@standard-schema/spec": "^1.0.0",
-      },
       "devDependencies": {
+        "@standard-schema/spec": "^1.0.0",
         "@types/bun": "1.4.0",
         "arktype": "^2.2.3",
         "changelogen": "^0.6.2",
