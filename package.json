@@ -52,16 +52,16 @@
   },
   "devDependencies": {
     "@standard-schema/spec": "^1.0.0",
-    "@types/bun": "1.4.0",
+    "@types/bun": "1.4.2",
     "arktype": "^2.2.3",
     "changelogen": "^0.6.2",
     "lefthook": "^2.1.10",
-    "oxfmt": "^0.64.0",
+    "oxfmt": "^0.72.0",
     "oxlint": "^1.79.0",
     "oxlint-tsgolint": "^7.0.2001",
-    "tsdown": "^0.22.14",
+    "tsdown": "^0.23.0",
     "valibot": "^1.4.2",
-    "vitest": "^4.1.11",
+    "vitest": "^5.0.3",
     "zod": "^4.1.13"
   },
   "peerDependencies": {
